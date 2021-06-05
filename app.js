@@ -5,7 +5,6 @@ require('dotenv').config()
 const app = express();
 
 app.use(express.json())
-
 app.use('/api/first', firstRouter)
 
 app.get('/',(req, res) =>{
